@@ -11,6 +11,7 @@ RUN pip3 install torch
 RUN pip3 install torchdata
 RUN pip3 install torchtext
 RUN pip3 install spacy
+RUN pip3 install transformers
 RUN python -m spacy download en_core_web_sm
 
 COPY ./code /root/code

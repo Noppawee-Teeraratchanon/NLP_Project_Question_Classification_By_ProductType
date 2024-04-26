@@ -3,7 +3,7 @@ version: '3.9'
 services:
   python:
     # command: python3 /root/code/app.py
-    image: noppawee/ait-nlp-python:v1
+    image: noppawee/ait-nlp-python:v2
     platform: linux/x86_64
     build: 
       context: .
@@ -18,7 +18,7 @@ services:
       - PORT=80
       
   mlflow:
-    image: noppawee/ait-nlp-mlflow:v1
+    image: noppawee/ait-nlp-mlflow:v2
     platform: linux/x86_64
     build: 
       context: .
